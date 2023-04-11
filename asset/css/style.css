@@ -9,13 +9,31 @@
     --secondary-blue:#ECF4FF;
     --dark-blue:#2E3F62;
     --white:#ffffff;
+    --primary-grey:#F8F8F7;
 }
 
+body{
+    background-color: var(--primary-grey);
+}
 /* common css */
 .container-fluid{
     max-width: 97%;
 }
 
+.input-group{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.input-group i{
+    color: var(--primary-blue);
+}
+
+.input-group, .form-control, .input-group-text{
+    border: none;
+    background-color: var(--white);
+}
 /************************************
  ****Home section css start here ****
  ************************************/
@@ -96,28 +114,133 @@
     color: gray;
 }
 
-.home-banner .input-group{
+.home-banner-container .input-group{
     position: absolute;
     bottom: 10%;
     width: auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.home-banner .input-group .input-group-text{
-    border: none;
-    background-color: var(--white);
-}
-
-.home-banner .input-group i{
-    color: var(--primary-blue);
 }
 
 .navbar{
     z-index: 99;
 }
- /**** Home section css end here ****/
+/**** Home section css end here ****/
+
+/**** main section css start here ****/
+.main-section{
+    max-width: 97%;
+}
 
 
+/************************************
+ ****About us section css start here ****
+ ************************************/
+.about-us{
+    padding: 30px 15px 30px 150px;
+}
+
+.abt-us-tp-row{
+    column-gap: 5%;
+}
+
+.abt-us-tp-img{
+    height: 260px;
+    border-radius: 10%;
+    background-color: var(--primary-blue);
+    max-width: 40%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.abt-us-bt-img{
+    height: 200px;
+    border-radius: 20px;
+    max-width: 85%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.abt-us-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-us-text{
+    max-width: 76%;
+}
+ /**** About us section css end here ****/
+
+
+
+/************************************
+ ****products section css start here ****
+ ************************************/
+ .products{
+    padding: 30px 15px 30px 150px;
+}
+
+.product-title-box{
+    height: 260px;
+    background-color: var(--primary-blue);
+    border-radius: 10%;
+    max-width: 90%;
+}
+
+.product-card img{
+    height: 100px;
+    object-fit: contain;
+    object-position: left;
+    filter: grayscale(100%);
+}
+
+.product-card i{
+    color: var(--primary-blue);
+}
+
+.product-card, .card-header, .card-footer{
+    border: none;
+    background-color: var(--white);
+}
+
+
+/* brand css start here */
+.brand{
+    padding: 30px 15px 30px 150px;
+    column-gap: 2%;
+}
+
+.brand img{
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+    width: 200px;
+}
+/* brand css end here */
+
+/* footer section css start here */
+.footer-section{
+    max-width: 97%;
+    background-color: lightgrey;
+    padding-bottom: 50px;
+}
+
+.contact-section{
+    padding: 30px 15px 30px 150px;
+    background-color: var(--primary-grey);
+}
+
+.google-map{
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+.footer-nav{
+    padding: 30px 15px 30px 150px;
+    background-color: var(--primary-grey);
+}
+
+/* footer section end here */
 
 @media screen and (min-width:1800px) {
     .container{
