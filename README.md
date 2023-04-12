@@ -3,4 +3,4 @@
 Created a template using HTML, CSS and Bootstrap
 
 
-![Screenshot](./assets/image/screenshot-home.png)
+![Screenshot](./asset/image/screenshot-home.png)
