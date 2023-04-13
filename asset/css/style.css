@@ -305,6 +305,32 @@ body{
     .common-heading{
         font-size: 1.5em;
     }
+
+    .abt-us-img .row{
+        justify-content: center;
+    }
+
+    .about-us-text{
+        margin: auto;
+    }
+
+    .product-title-box{
+        max-width: 260px;
+        margin: auto;
+    }
+
+    .product-card, .contact-card{
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .product-container-row, .contact-container-row{
+        row-gap: 20px;
+    }
+
+    .press-container-row{
+        row-gap: 30px;
+    }
     
 }
 /* media screen end here */
